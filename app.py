@@ -43,7 +43,7 @@ def init_db():
             CREATE TABLE IF NOT EXISTS items (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 invoice_id INTEGER,
-                description TEXT,
+                Item Name TEXT,
                 quantity REAL,
                 unit_price REAL,
                 line_total REAL,
